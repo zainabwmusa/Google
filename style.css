@@ -390,6 +390,9 @@ hr{
 }
 
 @media (max-width: 500px) {
+    .ai-mode-btn{
+    display: none;
+  }
   .search-bar{
     width: 100%;
     max-width: 90vw;
@@ -458,8 +461,5 @@ hr{
   .languages{
     margin-left: 1em;
     font-size: 11px;
-  }
-  .ai-mode-btn{
-    display: none;
   }
 }
